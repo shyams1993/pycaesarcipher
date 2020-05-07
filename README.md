@@ -8,20 +8,21 @@ This library contains an Encipher method and a Decipher method to encipher & dec
 
 <b>INSTALLATION</b>: python -m pip install pycaesarcipher==1.3 (or) python -m pip install pycaesarcipher==1.4
 
+<b>ALGORITHM :</b> 
+Import the module<br>
+Create an instance of the class<br>
+call the function "encipher" or "decipher" as an object along with the instance of the class<br>
+
 <b>USAGE :</b> 
-variable_name = CaesarCipher()
-new_variable = variable_name.caesar_encipher("string",shiftkey)
-another_variable = variable_name.caesar_decipher(new_variable,shiftkey)
-print(new_variable)
+variable_name = CaesarCipher() <br>
+new_variable = variable_name.caesar_encipher("string",shiftkey) <br>
+another_variable = variable_name.caesar_decipher(new_variable,shiftkey) <br>
+print(new_variable) <br>
 
-<b>EXAMPLE PROGRAM:</b>
-
-from pycaesarcipher import pycaesarcipher
-
-word = pycaesarcipher()
-new = word.caesar_encipher("i love python",12)
-word2 = word.caesar_decipher("u xahq bkftaz",12)
-print(new," is the enciphered text.\n")
-print(word2," is the deciphered text.")
-
-
+<b>EXAMPLE PROGRAM:</b><br>
+from pycaesarcipher import pycaesarcipher<br>
+word = pycaesarcipher()<br>
+new = word.caesar_encipher("i love python",12)<br>
+word2 = word.caesar_decipher("u xahq bkftaz",12)<br>
+print(new," is the enciphered text.\n")<br>
+print(word2," is the deciphered text.")<br>
