@@ -6,15 +6,15 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 This library contains an Encipher method and a Decipher method to encipher & decipher a string, respectively, using a shiftkey.
 
 
-INSTALLATION: python -m pip install pycaesarcipher==1.3 (or) python -m pip install pycaesarcipher==1.4
+<b>INSTALLATION</b>: python -m pip install pycaesarcipher==1.3 (or) python -m pip install pycaesarcipher==1.4
 
-USAGE : 
+<b>USAGE :</b> 
 variable_name = CaesarCipher()
 new_variable = variable_name.caesar_encipher("string",shiftkey)
 another_variable = variable_name.caesar_decipher(new_variable,shiftkey)
 print(new_variable)
 
-EXAMPLE:
+<b>EXAMPLE PROGRAM:</b>
 
 from pycaesarcipher import pycaesarcipher
 
