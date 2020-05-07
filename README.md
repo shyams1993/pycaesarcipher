@@ -20,9 +20,9 @@ another_variable = variable_name.caesar_decipher(new_variable,shiftkey) <br>
 print(new_variable) <br>
 
 <b>EXAMPLE PROGRAM:</b><br>
-from pycaesarcipher import pycaesarcipher<br>
-word = pycaesarcipher()<br>
-new = word.caesar_encipher("i love python",12)<br>
-word2 = word.caesar_decipher("u xahq bkftaz",12)<br>
-print(new," is the enciphered text.\n")<br>
-print(word2," is the deciphered text.")<br>
+<code>from pycaesarcipher import pycaesarcipher<br></code>
+<code>word = pycaesarcipher()<br></code>
+<code>new = word.caesar_encipher("i love python",12)<br></code>
+<code>word2 = word.caesar_decipher("u xahq bkftaz",12)<br></code>
+<code>print(new," is the enciphered text.\n")<br></code>
+<code>print(word2," is the deciphered text.")<br></code>
