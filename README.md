@@ -22,10 +22,10 @@ print(new_variable) <br>
 
 <b>EXAMPLE PROGRAM:</b><br>
 ```
-from pycaesarcipher import pycaesarcipher<br>
-word = pycaesarcipher()<br>
-new = word.caesar_encipher("i love python",12)<br>
-word2 = word.caesar_decipher("u xahq bkftaz",12)<br>
-print(new," is the enciphered text.\n")<br>
-print(word2," is the deciphered text.")<br>
+from pycaesarcipher import pycaesarcipher
+word = pycaesarcipher()
+new = word.caesar_encipher("i love python",12)
+word2 = word.caesar_decipher("u xahq bkftaz",12)
+print(new," is the enciphered text.\n")
+print(word2," is the deciphered text.")
 ```
